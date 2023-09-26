@@ -1,0 +1,35 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package pertemuan4;
+import java.util.Scanner;
+
+/**
+ *
+ * @author agus
+ */
+public class arraySoal1 {
+
+    /**
+     * @param args the command line arguments
+     */
+        public static void main(String[] args){
+        
+        int[] angka = new int[5];
+        Scanner input = new Scanner(System.in); 
+        int j = 1;
+        for(int i = 0; i < 5; i++) {
+            System.out.print("Angka ke-" + j + " : ");
+            angka[i] = input.nextInt();
+            j++;
+        }
+        System.out.println("------------------");
+        int a = 1;
+        for(int i = 0; i < 5; i++){
+            System.out.println(a+". "+ angka[i]);
+            a++;
+        }
+        System.out.println("");
+    }
+    }
