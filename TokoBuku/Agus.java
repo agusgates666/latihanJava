@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 /**
  *
- * @author heckkkeerr
+ * @author agus
  */
 public class Agus {
     public static final String NAMA = "Agus";
