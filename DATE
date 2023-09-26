@@ -1,0 +1,34 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package tugasjava;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.Locale;
+
+/**
+ *
+ * @author payun
+ */
+public class tugas4 {
+    public static void main(String[] args) {
+        int detik, menit, jam, hari, tanggal, bulan, tahun;
+        GregorianCalendar date = new GregorianCalendar();
+        String namaBulan[] = {"Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"};
+        String namaHari[] = {"kepo","Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu"};
+                
+        detik = date.get(Calendar.SECOND);
+        menit = date.get(Calendar.MINUTE);
+        jam =  date.get(Calendar.HOUR_OF_DAY);
+        hari = date.get(Calendar.DAY_OF_WEEK);
+        tanggal = date.get(Calendar.DAY_OF_MONTH);
+        bulan = date.get(Calendar.MONTH);
+        tahun = date.get(Calendar.YEAR);
+        
+        System.out.println("Sekarang hari "+namaHari[hari]+" "+tanggal+" "+namaBulan[bulan]+" "+tahun);
+        System.out.println("Waktu sekarang: "+jam+":"+menit+":"+detik);
+        System.out.println("Lokasi: "+Locale.getDefault().getDisplayCountry());
+    }
+    
+}
