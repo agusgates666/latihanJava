@@ -14,7 +14,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author hekerr
+ * @author agus
  */
 public class FormDetailBarang extends javax.swing.JFrame {
 
