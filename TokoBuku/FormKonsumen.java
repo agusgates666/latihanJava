@@ -6,7 +6,7 @@ package TokoBuku;
 
 /**
  *
- * @author En Tay
+ * @author agus
  */
 public class FormKonsumen extends javax.swing.JFrame {
 
