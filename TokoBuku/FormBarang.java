@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 /**
  *
- * @author hekerr
+ * @author agus
  */
 public class FormBarang extends javax.swing.JFrame {
 
