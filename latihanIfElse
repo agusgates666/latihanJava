@@ -1,0 +1,54 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package tugasjava;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author agus
+ */
+public class Latihan2 {
+    public static void main(String[] args) {
+       // membuat variabel
+       String nama, jenisKelamin, berkeluarga;
+       int usia;
+       
+       Scanner input = new Scanner(System.in);
+       
+       System.out.print("nama : ");
+       nama = input.nextLine();
+       
+       System.out.print("Usia : ");
+       usia = input.nextInt();
+       input.nextLine();
+       
+       if (usia < 30) {
+           System.out.println("Salam, " + nama);
+       } else if (usia >= 30) {
+           System.out.print("Jenis Kelamin? (l/p) : ");
+           jenisKelamin = input.nextLine();
+           
+           System.out.print("Berkeluarga? (y/t) : ");
+           berkeluarga = input.nextLine();
+       
+           if (jenisKelamin.equals("l")) {
+            if (berkeluarga.equals("y")) {
+                System.out.println("Salam, Bapak " + nama);
+            } else {
+                System.out.println("Salam, Saudara " + nama);
+            }
+            } else {
+               if (berkeluarga.equals("y")) {
+                   System.out.println("salam, Ibu " + nama);
+               } else {
+                   System.out.println("Salam, Saudari " + nama);
+               }
+           }
+    
+        }
+}
+    
+}
