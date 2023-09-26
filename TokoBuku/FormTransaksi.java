@@ -14,7 +14,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author hekerrr
+ * @author agus
  */
 public class FormTransaksi extends javax.swing.JFrame {
 
