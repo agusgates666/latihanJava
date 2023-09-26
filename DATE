@@ -9,7 +9,7 @@ import java.util.Locale;
 
 /**
  *
- * @author payun
+ * @author agus
  */
 public class tugas4 {
     public static void main(String[] args) {
