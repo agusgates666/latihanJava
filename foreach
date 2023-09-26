@@ -1,0 +1,40 @@
+import java.util.Random;
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author agus
+ */
+
+public class bonus2 {
+    public static void main(String[] args) throws Exception {
+        Random random = new Random();
+        int[] jumlah = new int[6];
+
+        System.out.println("Bilangan Acak:");
+        int j = 1;
+        for (int i = 0; i < 30; i++) {
+            int randomNumber = random.nextInt(6) + 1;
+            jumlah[randomNumber - 1]++;
+            
+            if (j % 10 == 0) {
+                System.out.println(randomNumber);
+            } else {
+                System.out.print(randomNumber + " ");
+
+            }
+            j++;
+        }
+
+        System.out.println("\nFrekuensi:");
+        // Print out the results
+        for (int i = 0; i < 6; i++) {
+            System.out.println("Angka " + (i + 1) + " muncul " + jumlah[i] + "x");
+        }
+        System.out.print("\nDibuat oleh Agus \n");
+    }
+}
