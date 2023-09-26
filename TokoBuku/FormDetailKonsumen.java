@@ -6,7 +6,7 @@ package projectBaru;
 
 /**
  *
- * @author hekerr
+ * @author agus
  */
 public class FormDetailKonsumen extends javax.swing.JFrame {
 
