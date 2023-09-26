@@ -1,0 +1,47 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package tugasjava;
+import java.util.Scanner;
+
+/**
+ *
+ * @author payun
+ */
+public class bonus1{
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        // deklarasi variable
+        int qty, harga, total;
+        
+        // membuat scanner
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Qty : ");
+        qty = input.nextInt();
+        
+        System.out.print("Harga : ");
+        harga = input.nextInt();
+        
+        total = qty * harga;
+        
+        if (qty >= 100) {
+            System.out.println("Anda dapat diskon Rp. 1000/pcs");
+            total = (harga - 1000) * qty; 
+        } else {
+            System.out.println("Tidak dapat diskon");
+        }
+        
+        // menampilkan output
+        System.out.println("--------------------");
+        System.out.println("Qty? " + qty);
+        System.out.println("Harga? " + harga);
+        System.out.println("Total? " + total);
+    }
+    
+}
