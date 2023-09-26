@@ -6,7 +6,7 @@ package soal_tugas;
 
 /**
  *
- * @author ikhsa
+ * @author agus
  */
 public class Soal3 {
     public void Jawaban3(){
