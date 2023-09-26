@@ -10,7 +10,7 @@ import java.time.format.DateTimeFormatter;
 import javax.swing.*;  
 /**
  *
- * @author hekerr
+ * @author agus
  */
 public class FormUtama extends javax.swing.JFrame {
 
